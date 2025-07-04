@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sania Rashid | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f172a;
+      color: #e2e8f0;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      min-height: 100vh;
+      background: linear-gradient(to bottom right, #1e293b, #0f172a);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header img {
+      width: 160px;
+      border-radius: 50%;
+      border: 4px solid #64748b;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      box-shadow: 0 0 20px #38bdf8;
+    }
+
+    h1, h2, h3, h4 {
+      color: #f8fafc;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.8rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+      margin-bottom: 1rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin: 0.4rem;
+      padding: 0.6rem 1.2rem;
+      background: #38bdf8;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 500;
+      transition: 0.3s;
+      box-shadow: 0 0 12px #38bdf8;
+    }
+
+    .cta a:hover {
+      background: #0ea5e9;
+      color: white;
+    }
+
+    .scroll-down {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #38bdf8;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(8px); }
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+
+    p {
+      color: #cbd5e1;
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+
+    .skills, .certifications {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .skill-category h4 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background-color: #1e40af;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      color: #93c5fd;
+      font-size: 0.9rem;
+      box-shadow: 0 0 5px #3b82f6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1e293b;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+
+    .socials a {
+      margin: 0 0.5rem;
+      color: #38bdf8;
+      font-size: 1.3rem;
+      transition: color 0.3s;
+    }
+
+    .socials a:hover {
+      color: #0ea5e9;
+    }
+
+    .animated-icon {
+      animation: pulse 3s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="sanie photo.jpg" alt="Sania Rashid Photo" data-aos="zoom-in" />
+    <h1 data-aos="fade-up">Hi, I'm Sania Rashid</h1>
+    <h2 data-aos="fade-up" data-aos-delay="200">
+      A passionate and driven BCA 3rd-year student focused on Web Development, AI & ML, and Creative UI/UX.
+    </h2>
+    <div class="cta" data-aos="fade-up" data-aos-delay="400">
+      <a href="sania rashid main resume.pdf" download><i class="fas fa-file-download animated-icon"></i> Download Resume</a>
+      <a href="mailto:shanbi07@outlook.com"><i class="fas fa-envelope animated-icon"></i> Contact Me</a>
+      <a href="https://www.linkedin.com/in/sania-rashid-48680534a" target="_blank"><i class="fab fa-linkedin animated-icon"></i> LinkedIn</a>
+    </div>
+    <div class="scroll-down" data-aos="fade-up" data-aos-delay="600">↓ scroll to explore</div>
+  </header>
+
+  <section id="about" data-aos="fade-right">
+    <h3>Who I Am</h3>
+    <p>
+      I'm a BCA final-year student at Uttaranchal University, passionate about crafting meaningful digital experiences through clean code and intelligent systems. I specialize in Full-Stack Web Development, Artificial Intelligence, and Machine Learning. <br><br>
+      I recently completed a 6-month internship as a <strong>Data Visualization Intern</strong>, where I gained hands-on experience in transforming complex data into interactive dashboards and insights.<br><br>
+      I thrive in creative, collaborative environments and constantly seek opportunities to solve real-world problems using innovative tech.
+    </p>
+  </section>
+
+  <section id="skills" data-aos="fade-left">
+    <h3>What I Use</h3>
+    <div class="skills">
+      <div class="skill-category">
+        <h4>Languages</h4>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">Python</span><span class="tag">Java</span><span class="tag">C++</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Frameworks</h4>
+        <div class="tags">
+          <span class="tag">React</span><span class="tag">Node.js</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Tools</h4>
+        <div class="tags">
+          <span class="tag">Figma</span><span class="tag">Git</span><span class="tag">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" data-aos="fade-right">
+    <h3>Certifications</h3>
+    <div class="certifications">
+      <ul>
+        <li>✅ Deloitte Certificate in Cyber, Technology, and Data Analytics</li>
+        <li>✅ AWS Certified Fundamentals</li>
+        <li>✅ Tata Certificate in Cybersecurity Analytics</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h3>Projects</h3>
+    <p>
+      🔹 <strong>Portfolio Website:</strong> A responsive and interactive site showcasing my work and skills.<br><br>
+      🔹 <strong>Career Atlas – AI Career Guidance:</strong> Recommends courses and roadmaps using AI logic.<br><br>
+      🔹 <strong>To-Do List Web App:</strong> Built with HTML, CSS, JavaScript & Local Storage.<br><br>
+      🔹 <strong>Student Management System:</strong> Java + MySQL CRUD app for managing student data.<br><br>
+      🔹 <strong>Weather App:</strong> Real-time weather using OpenWeatherMap API.<br><br>
+      🔹 <strong>Chatbot using Python:</strong> A rule-based chatbot built with NLTK.<br><br>
+      🔹 <strong>Responsive Blog Website:</strong> A mobile-first blog template focusing on UI.
+    </p>
+  </section>
+
+  <footer data-aos="zoom-in">
+    © 2025 Sania Rashid • Designed & Built with ❤
+    <div class="socials">
+      <a href="mailto:shanbi07@outlook.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/sania-rashid-48680534a" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>
+
